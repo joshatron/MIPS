@@ -46,6 +46,16 @@ body
     padding-top: 25px;
 }
 
+#header a:link, #header a:visited, #header a:active
+{
+    text-decoration: none;
+}
+
+.current a
+{
+    color: #000000;
+}
+
 .clear
 {
     clear: both;
@@ -64,3 +74,4 @@ body
     width: 50%;
     float: left;
 }
+
