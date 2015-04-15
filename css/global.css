@@ -6,16 +6,18 @@
 
 #header
 {
-    height: 100px;
-    background-color: #D0D0D0;
+    height: 200px;
+    background-image: url("../images/header.png");
+    background-repeat: repeat-x;
+    background-size: 150px;
 }
 
 #header img
 {
     float: left;
-    width: 80px;
-    height: 80px;
-    padding: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
 }
 
 #header h1
@@ -23,7 +25,7 @@
     text-align: center;
     margin: 0px;
     width: 800px;
-    padding-top: 10px;
+    padding-top: 30px;
     float: left;
 }
 
@@ -43,7 +45,7 @@
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
-    padding-top: 25px;
+    padding-top: 40px;
 }
 
 #header a:link, #header a:visited, #header a:active
