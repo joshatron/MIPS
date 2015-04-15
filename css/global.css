@@ -6,7 +6,7 @@
 
 #header
 {
-    height: 200px;
+    height: 150px;
     background-image: url("../images/header.png");
     background-repeat: repeat-x;
     background-size: 150px;
@@ -31,10 +31,10 @@
 
 #header ul
 {
-    float: left;
+    float: right;
     list-style-type: none;
     padding: 0px;
-    padding-left: 350px;
+    padding-right: 5px;
     margin: 0px;
     text-align: left;
 }
@@ -48,9 +48,14 @@
     padding-top: 40px;
 }
 
-#header a:link, #header a:visited, #header a:active
+#header a
 {
     text-decoration: none;
+}
+
+#header a:visited
+{
+    color: #0000FF;
 }
 
 .current a
@@ -67,12 +72,16 @@
 #footer
 {
     height: 100px;
-    background-color: #D0D0D0;
+    background-image: url("../images/header.png");
+    background-repeat: repeat-x;
+    background-size: 150px;
 }
 
 #footer p
 {
     text-align: center;
+    padding-top: 13px;
+    font-size: 10px;
     width: 50%;
     float: left;
 }
