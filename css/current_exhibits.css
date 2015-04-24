@@ -9,6 +9,7 @@
     width: 550px;
     height: 300px;
     padding: 10px;
+    padding-right: 20px;
     float: left;
 }
 
@@ -20,7 +21,7 @@
     border-style: solid;
     border-width: 2px;
     font-color: black;
-    background-color: yellow;
+    background-color: #FFFF5C;
     text-decoration: none;
     float: right;
     padding-top: 5px;
@@ -66,7 +67,7 @@
     border-style: solid;
     border-width: 2px;
     font-color: black;
-    background-color: yellow;
+    background-color: #FFFF5C;
     text-decoration: none;
     float: left;
     padding-top: 5px;

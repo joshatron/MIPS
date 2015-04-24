@@ -1,23 +1,29 @@
 #movies
 {
-    width: 550px;
-    height: 1400px;
-    padding-right: 20px;
-    padding-left: 20px;
+    width: 539px;
+    height: 1425px;
+    padding-right: 30px;
+    padding-left: 30px;
     border-right-style: solid;
     border-right-width: 2px;
-    margin-top: 25px;
     float: left;
 }
 
 #movies h1
 {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.movie
+{
+    height: 400px;
 }
 
 .movie h2
 {
     text-align: center;
+    margin-top: 50px;
 }
 
 .movie img
@@ -29,40 +35,32 @@
 #people
 {
     float: left;
-    width: 350px;
+    width: 339px;
     height: 1400px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #people h1
 {
     text-align: center;
+    margin-bottom: 50px;
+}
+
+.person
+{
+    height: 350px;
 }
 
 .person h2
 {
     text-align: center;
-    width: 100%;
+    margin-top: 50px;
 }
 
 .person img
 {
     width: 200px;
     height: 200px;
-    float: left;
-	margin: auto;
-	padding-left: 75px;
-	padding-bottom: 10px;
-}
-
-.person p
-{
-    width: 240px;
-    height: 120px;
-    margin: 0px;
-    padding: 0px;
-    padding-left: 55px;
-    float: left;
+	padding-left: 70px;
 }
