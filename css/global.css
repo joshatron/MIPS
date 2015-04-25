@@ -4,6 +4,30 @@
     margin: auto;
 }
 
+h1
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 30px;
+}
+
+h2
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 25px;
+}
+
+p
+{
+    font-family: Georgia, serif;
+    font-size: 17px;
+}
+
+a
+{
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
 #header
 {
     height: 150px;
@@ -22,6 +46,8 @@
 
 #header h1
 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 35px;
     text-align: center;
     margin: 0px;
     width: 800px;
@@ -81,6 +107,7 @@
 {
     text-align: center;
     padding-top: 13px;
+    font-family: Georgia, serif;
     font-size: 10px;
     width: 50%;
     float: left;

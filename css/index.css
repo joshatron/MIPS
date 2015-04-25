@@ -17,6 +17,12 @@
     width: 100%;
 }
 
+#movie_week p
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 #actor_week
 {
     width: 350px;
@@ -35,6 +41,12 @@
     width: 100%;
 }
 
+#actor_week p
+{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
 .events
 {
     width: 300px;
@@ -42,7 +54,8 @@
     padding-right: 11px;
     padding-left: 11px;
     float: left;
-    height: 500px;
+    height: 525px;
+    margin-top: -25px;
 }
 
 .events h2
